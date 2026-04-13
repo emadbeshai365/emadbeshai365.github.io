@@ -2,8 +2,8 @@ title: "Emad Beshai · Engineering"
 description: >-
   A technical blog on software architecture, system design, and engineering craft.
   Practical depth on backend, cloud, and distributed systems.
-url: "https://emadbeshai365.github.io"
-baseurl: ""
+url: "https://emadsaad.github.io"
+baseurl: "/emadbeshai365.github.io"
 
 author:
   name: "Emad Beshai"
@@ -46,6 +46,9 @@ social:
     - https://github.com/EmadSaad
     - https://linkedin.com/in/emadbeshai
     - https://twitter.com/emadbeshai
+
+# GitHub Pages project site path
+# Change baseurl to "" only if you rename the repo to EmadSaad.github.io
 
 google_analytics: # add UA-XXXXXXX or G-XXXXXXX here when ready
 
