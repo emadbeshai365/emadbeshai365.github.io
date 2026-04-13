@@ -18,6 +18,9 @@ markdown: kramdown
 highlighter: rouge
 permalink: /:title/
 
+include:
+  - _pages
+
 kramdown:
   input: GFM
   syntax_highlighter: rouge

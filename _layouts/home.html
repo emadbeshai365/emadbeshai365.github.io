@@ -19,7 +19,7 @@ layout: default
 </section>
 
 <!-- =========== QUICK READS (IMP #4) =========== -->
-{% assign quick = site.posts | where_exp: "p", "p.read_time contains '5' or p.read_time contains '4' or p.read_time contains '3' or p.read_time contains '2'" | limit: 6 %}
+{% assign quick = site.posts | where_exp: "p", "p.read_time contains '5' or p.read_time contains '4' or p.read_time contains '3' or p.read_time contains '2'" | slice: 0, 6 %}
 {% if quick.size > 0 %}
 <section class="quick-reads-section" aria-labelledby="qr-heading">
   <div class="sec-label">
